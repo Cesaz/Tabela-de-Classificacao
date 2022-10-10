@@ -1,0 +1,111 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #011526;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  background-color: #012E40;
+  margin-top: 10px;
+  border: 2px solid white;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+}
+
+input {
+  border-radius: 20px;
+  padding: 6px;
+  border: 3px solid black
+}
+
+button {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.botaoPrincipal:hover {
+  border-radius: 5px;
+  background: #5CA8DA;
+}
+
+.vitoria:hover {
+  background: #6DC75E;
+  border-radius: 5px;
+  transition-delay: 0.1s;
+}
+
+.empate:hover {
+  background: #FF8F4C;
+  border-radius: 5px;
+  transition-delay: 0.1s;
+}
+
+.derrota:hover {
+  background: #D6675A;
+  border-radius: 5px;
+  transition-delay: 0.1s;
+}
+
+.lixeira {
+  background: red;
+}
+
+.lixeira:hover {
+  background: #A71125;
+  border-radius: 10px;
+}
+
+.zerar {
+  margin-top: 10px;
+}
+
+.zerar:hover {
+  border-radius: 5px;
+  background: #A71125;
+ 
+}
